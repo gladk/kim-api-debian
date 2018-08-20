@@ -1,0 +1,3 @@
+usr/include
+usr/lib/*/libkim*.so
+usr/lib/*/kim-api-v2/cmake/*

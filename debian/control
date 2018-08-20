@@ -1,0 +1,39 @@
+Source: kim-api
+Maintainer: Debian Science Team <debian-science-maintainers@lists.alioth.debian.org>
+Uploaders: Anton Gladky <gladk@debian.org>
+Section: libs
+Priority: optional
+Build-Depends: cmake,
+               debhelper (>= 10)
+Standards-Version: 4.1.1
+Vcs-Browser: https://salsa.debian.org/science-team/kim-api.git
+Vcs-Git: https://salsa.debian.org/science-team/kim-api.git
+Homepage: https://openkim.org
+
+Package: libkim-api-v2-dev
+Architecture: any
+Section: libdevel
+Depends: libkim-api-v2-2 (= ${binary:Version}),
+         ${misc:Depends}
+Description: Development files for KIM-API
+ OpenKIM is an online framework for making molecular simulations reliable,
+ reproducible, and portable. Models conforming to the KIM application
+ programming  interface work seamlessly with major simulation codes that
+ have adopted the KIM-API standard.
+ .
+ This package contains the development files (headers and documentation) for
+ KIM-API.
+
+Package: libkim-api-v2-2
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Shared library for KIM-API
+ OpenKIM is an online framework for making molecular simulations reliable,
+ reproducible, and portable. Models conforming to the KIM application
+ programming  interface work seamlessly with major simulation codes that
+ have adopted the KIM-API standard.
+ .
+ This package contains the shared library for KIM-API.
