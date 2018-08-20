@@ -1,3 +1,7 @@
-usr/include
+usr/include/kim-api-v2/*.hpp usr/include/kim-api-v2
+usr/include/kim-api-v2/*.h usr/include/kim-api-v2
+usr/include/kim-api-v2/*.inc usr/include/kim-api-v2
 usr/lib/*/libkim*.so
-usr/lib/*/kim-api-v2/cmake/*
+usr/lib/*/kim-api-v2/cmake
+usr/lib/*/pkgconfig/*.pc
+etc/bash_completion.d/* /usr/share/bash-completion/completions/
