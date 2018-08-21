@@ -3,7 +3,7 @@ usr/include/kim-api-v2/*.h usr/include/kim-api-v2
 usr/include/kim-api-v2/*.inc usr/include/kim-api-v2
 usr/libexec/* usr/lib/libexec
 usr/lib/*/libkim*.so
-usr/lib/*/kim-api-v2/cmake/Modules/*
+usr/lib/*/kim-api-v2/cmake/Modules/* usr/share/kim-api-v2/cmake
 usr/lib/*/pkgconfig/*.pc
 etc/bash_completion.d/* /usr/share/bash-completion/completions/
 usr/bin/kim-api-v2-collections-management

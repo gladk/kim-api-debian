@@ -16,7 +16,8 @@ Package: libkim-api-v2-dev
 Architecture: any
 Section: libdevel
 Depends: libkim-api-v2-2 (= ${binary:Version}),
-         ${misc:Depends}
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: Development files for KIM-API
  OpenKIM is an online framework for making molecular simulations reliable,
  reproducible, and portable. Models conforming to the KIM application
