@@ -14,3 +14,6 @@ override_dh_auto_configure:
 override_dh_compress:
 	dh_compress -X.cpp -X.hpp -X.F90 -X.c -X.txt -X.sh
 
+override_dh_clean:
+	dh_clean
+	rm -rf debian/home
