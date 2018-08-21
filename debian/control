@@ -39,3 +39,19 @@ Description: Shared library for KIM-API
  have adopted the KIM-API standard.
  .
  This package contains the shared library for KIM-API.
+
+Package: kim-api-v2-models
+Architecture: any
+Multi-Arch: same
+Depends: ${misc:Depends},
+         libkim-api-v2-2 (= ${binary:Version}),
+         ${shlibs:Depends}
+Pre-Depends: ${misc:Pre-Depends}
+Description: Models and model-drivers for KIM-API
+ OpenKIM is an online framework for making molecular simulations reliable,
+ reproducible, and portable. Models conforming to the KIM application
+ programming  interface work seamlessly with major simulation codes that
+ have adopted the KIM-API standard.
+ .
+ This package contains models and model-drivers for KIM-API
+
